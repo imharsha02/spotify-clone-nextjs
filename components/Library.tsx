@@ -4,7 +4,7 @@ import { TbPlaylist } from "react-icons/tb";
 import { AiOutlinePlus } from "react-icons/ai";
 
 const Library = () => {
-  const handleUpload = () => {
+  const onClick = () => {
     //Handle upload later
   };
 
@@ -16,7 +16,7 @@ const Library = () => {
           <p className="text-neutral-400 font-medium text-md">Your Library</p>
         </div>
         <AiOutlinePlus
-          onClick={handleUpload}
+          onClick={onClick}
           size={20}
           className="text-neutral-400 cursor-pointer hover:text-white transition"
         />
